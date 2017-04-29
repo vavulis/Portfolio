@@ -1,4 +1,5 @@
 /*Настройка шаблона, глобальные стили тегов (body, wrapper, ссылки, списки, заголовки и т.п)*/
-.testFontFira {
-	font-family: 'fira_sansbold', Verdana;
+body {
+	font-family: 'fira_sansregular', sans-serif;
+	box-sizing: border-box;
 }

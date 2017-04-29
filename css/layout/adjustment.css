@@ -1,1 +1,4 @@
 /*Настройка шаблона, глобальные стили тегов (body, wrapper, ссылки, списки, заголовки и т.п)*/
+.testFontFira {
+	font-family: 'testFontFira', Verdana;
+}

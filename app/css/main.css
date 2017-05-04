@@ -2781,10 +2781,11 @@ body {
           box-sizing: border-box; }
 
 .wrapper {
-  min-height: 100%;
-  overflow: hidden;
   position: relative;
-  min-width: 960px; }
+  overflow: hidden;
+  min-width: 960px;
+  min-height: 100%;
+  background-color: aqua; }
 
 .wrapper:after {
   content: "";
@@ -2802,3 +2803,9 @@ body {
 
 .clearfix:after {
   clear: both; }
+
+.footer {
+  position: relative;
+  height: 50px;
+  margin-top: -50px;
+  background-color: aquamarine; }

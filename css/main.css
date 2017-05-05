@@ -2773,14 +2773,16 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'fira_sansregular', sans-serif;
-  box-sizing: border-box; }
+  color: #414141;
+  font-size: 18px;
+  box-sizing: border-box;
+  background-color: #f6f6f6; }
 
 .wrapper {
   position: relative;
   overflow: hidden;
   min-width: 960px;
-  min-height: 100%;
-  background-color: cornflowerblue; }
+  min-height: 100%; }
 
 .wrapper:after {
   content: "";
@@ -2799,8 +2801,87 @@ body {
 .clearfix:after {
   clear: both; }
 
+.content {
+  float: right;
+  width: 74%; }
+
+.about-me__photo-block {
+  float: left; }
+
+.about-me__photo {
+  width: 220px;
+  height: 220px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 50%;
+  background-color: #f6f6f6; }
+
+.about-me__description-block {
+  float: right;
+  text-align: right; }
+
+.about-me__description-caption {
+  text-align: left; }
+
+.about-me__description-content {
+  overflow-y: auto;
+  font-size: 18px;
+  color: #646464;
+  line-height: 1.444;
+  text-align: left;
+  width: 348px;
+  height: 317px; }
+
 .footer {
   position: relative;
   height: 50px;
   margin-top: -50px;
-  background-color: aquamarine; }
+  background-color: #414141; }
+
+.footer__left {
+  float: left; }
+
+.footer__right {
+  float: right; }
+
+.footer__copyryte {
+  font-size: 14px;
+  color: #9c9c9c; }
+
+.socials {
+  list-style-type: none; }
+
+.socials__item {
+  display: inline-block; }
+
+.header {
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  margin-bottom: 25px; }
+
+.header__left {
+  float: left; }
+
+.header__right {
+  float: right; }
+
+.avatar__logo-block {
+  float: left;
+  background-color: #d7d7d7;
+  border-radius: 100px;
+  padding: 2px; }
+
+.avatar__logo {
+  width: 62px;
+  height: 62px;
+  border-radius: 100px;
+  vertical-align: middle; }
+
+.avatar__fio {
+  float: left; }
+
+.sidebar {
+  float: left;
+  width: 25%; }

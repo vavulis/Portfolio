@@ -1,5 +1,6 @@
 .sidebar {
-
+    float: left;
+    width: 25%;
 }
 
 .nav {
@@ -17,3 +18,57 @@
 .nav__link {
     
 }
+
+// --------------
+// .sidebar {
+//   position: absolute;
+//   left: 0px;
+//   top: 0px;
+//   width: 1200px;
+//   height: 700px;
+//   z-index: 27;
+// }
+// .__Обо_мне {
+//   font-size: 18px;
+//   font-family: "FontAwesome";
+//   color: rgb(51, 193, 227);
+//   line-height: 1.333;
+//   text-align: right;
+//   position: absolute;
+//   left: 223.987px;
+//   top: 113.003px;
+//   z-index: 26;
+// }
+// .__Карьерный_путь {
+//   font-size: 18px;
+//   font-family: "FontAwesome";
+//   color: rgb(65, 65, 65);
+//   line-height: 1.333;
+//   text-align: right;
+//   position: absolute;
+//   left: 157.988px;
+//   top: 180.875px;
+//   z-index: 25;
+// }
+// .Портфолио {
+//   font-size: 18px;
+//   font-family: "FiraSans";
+//   color: rgb(65, 65, 65);
+//   line-height: 1.333;
+//   text-align: right;
+//   position: absolute;
+//   left: 222.843px;
+//   top: 224.875px;
+//   z-index: 23;
+// }
+// .line {
+//   background-image: -moz-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+//   background-image: -webkit-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+//   background-image: -ms-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+//   position: absolute;
+//   left: 344px;
+//   top: 105px;
+//   width: 6px;
+//   height: 44px;
+//   z-index: 22;
+// }

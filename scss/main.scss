@@ -1,5 +1,12 @@
 $footerHeight: 50px; // высота футера
 
+// основные цвета сайта
+$grey: #727272;
+$darkgrey: #414141;
+$lightgrey: #f6f6f6;
+$blue: #33c1e3;
+$red: #e85f61;
+
 @import "layout/_normalize.scss";
 @import "layout/_fonts.scss";
 @import "layout/_font-awesome.scss";

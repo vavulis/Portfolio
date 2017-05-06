@@ -5,12 +5,21 @@
     background-color: rgb(65, 65, 65);
 }
 
+.footer__container {
+    padding: 10px;
+}
+
 .footer__left {
-    float: left;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
 }
 
 .footer__right {
-    float: right;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: middle;
 }
 
 .footer__copyryte {
@@ -20,10 +29,16 @@
 
 .socials {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
 
 .socials__item {
     display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
 }
 
 .socials__link {

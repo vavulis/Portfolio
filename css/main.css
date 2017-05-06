@@ -2894,7 +2894,11 @@ body {
   vertical-align: middle; }
 
 .avatar__fio {
-  float: left; }
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 20px; }
 
 .sidebar {
   float: left;

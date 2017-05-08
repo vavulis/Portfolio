@@ -1,9 +1,11 @@
-// Высота внутреннего контейнера хедера.
-$headerContentHeight: 60px;
-// Должна быть не меньше 60px.
+// Высота хедера.
+$headerHeight: 80px;
+
+// Минимальная высота хедера, должна быть не меньше высоты логотипа.
 $headerContentMinHeight: 60px;
 
-$footerHeight: 50px; // высота футера
+// Высота футера
+$footerHeight: 50px;
 
 // основные цвета сайта
 $grey: #727272;
@@ -15,7 +17,9 @@ $red: #e85f61;
 @import "layout/_normalize.scss";
 @import "layout/_fonts.scss";
 @import "layout/_font-awesome.scss";
+@import "layout/_vertical-align.scss";
 @import "layout/_adjustment.scss";
+@import "layout/_typographics.scss";
 @import "sections/_about.scss";
 @import "sections/_career.scss";
 @import "sections/_content.scss";

@@ -1,12 +1,12 @@
 .header {
+    height: $headerHeight;
     background-color: white;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-    padding: 10px 0;
     margin-bottom: 25px;
 }
 
-.header__content {
-    height: $headerContentHeight;
+.header__container {
+    height: 100%;
     min-height: $headerContentMinHeight;
 }
 
@@ -33,11 +33,15 @@
     margin-left: 20px;
 }
 
-.contacts {
+.my-contacts {
 
 }
 
-.contacts__link {
+.my-contacts:hover .my-contacts__detail {
+    display: block;
+}
+
+.my-contacts__link {
     font-size: 18px;
     color: rgb(50, 195, 229);
     font-weight: bold;
@@ -46,3 +50,58 @@
     background: url(../img/decor/dotted_bg.png) bottom repeat-x;
 }
 
+// ----
+.my-contacts__detail {
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    z-index: 10;
+    // temp
+    height: 100px;
+}
+
+.my-contacts__detail:before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #dedede;
+}
+
+.my-contacts__detail:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
+.my-contacts__detail-item {
+
+}
+
+.my-contacts__detail-text {
+
+}

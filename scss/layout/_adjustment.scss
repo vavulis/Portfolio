@@ -43,22 +43,3 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .clearfix:after {
     clear: both;
 }
-
-.va__container {
-    font-size: 0;
-}
-
-.va__container:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-.va__item {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.button {
-    
-}

@@ -2767,6 +2767,19 @@ template {
   overflow: visible;
   clip: auto; }
 
+.va__container {
+  font-size: 0; }
+
+.va__container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.va__item {
+  display: inline-block;
+  vertical-align: middle; }
+
 /*Настройка шаблона, глобальные стили тегов (body, wrapper, ссылки, списки, заголовки и т.п)*/
 html,
 body {
@@ -2805,18 +2818,26 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .clearfix:after {
   clear: both; }
 
-.va__container {
-  font-size: 0; }
-
-.va__container:before {
-  content: '';
+.button {
   display: inline-block;
-  height: 100%;
-  vertical-align: middle; }
+  border-width: 2px;
+  border-color: #e85f61;
+  color: #e85f61;
+  border-style: solid;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center; }
 
-.va__item {
-  display: inline-block;
-  vertical-align: middle; }
+.button:hover {
+  background-color: #e85f61;
+  color: white; }
+
+.button__icon {
+  margin-right: 9px; }
 
 .content {
   float: right;
@@ -2848,7 +2869,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   line-height: 1.444;
   text-align: left;
   width: 348px;
-  height: 317px; }
+  height: 317px;
+  margin-bottom: 37px; }
 
 .footer {
   position: relative;
@@ -2857,18 +2879,14 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   background-color: #414141; }
 
 .footer__container {
-  padding: 10px; }
+  height: 100%; }
 
 .footer__left {
-  display: inline-block;
-  width: 49%;
-  vertical-align: middle; }
+  width: 50%; }
 
 .footer__right {
-  display: inline-block;
-  width: 49%;
-  text-align: right;
-  vertical-align: middle; }
+  width: 50%;
+  text-align: right; }
 
 .footer__copyryte {
   font-size: 14px;
@@ -2881,19 +2899,18 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-size: 0; }
 
 .socials__item {
-  display: inline-block;
   width: 30px;
   height: 30px;
   margin-left: 8px; }
 
 .header {
+  height: 80px;
   background-color: white;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
   margin-bottom: 25px; }
 
-.header__content {
-  height: 60px;
+.header__container {
+  height: 100%;
   min-height: 60px; }
 
 .header__left {
@@ -2915,7 +2932,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-left: 20px; }
 
-.contacts__link {
+.my-contacts:hover .my-contacts__detail {
+  display: block; }
+
+.my-contacts__link {
   font-size: 18px;
   color: #32c3e5;
   font-weight: bold;
@@ -2923,6 +2943,65 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   background: url(../img/decor/dotted_bg.png) bottom repeat-x; }
 
+.my-contacts__detail {
+  font-size: 16px;
+  text-align: left;
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  width: 220px;
+  background-color: white;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  z-index: 10;
+  height: 100px; }
+
+.my-contacts__detail:before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 11px solid #dedede; }
+
+.my-contacts__detail:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white; }
+
 .sidebar {
   float: left;
   width: 25%; }
+
+.nav__item {
+  list-style: none;
+  text-align: right;
+  padding: 12px; }
+
+.nav__item-link {
+  font-size: 18px;
+  color: #414141;
+  text-decoration: none; }
+
+.nav__item-link:hover, .nav__item-link--active {
+  color: #33c1e3; }
+
+.nav__item-icon {
+  margin-right: 10px; }

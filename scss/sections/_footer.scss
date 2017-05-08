@@ -6,20 +6,16 @@
 }
 
 .footer__container {
-    padding: 10px;
+    height: 100%;
 }
 
 .footer__left {
-    display: inline-block;
-    width: 49%;
-    vertical-align: middle;
+    width: 50%;
 }
 
 .footer__right {
-    display: inline-block;
-    width: 49%;
+    width: 50%;
     text-align: right;
-    vertical-align: middle;
 }
 
 .footer__copyryte {
@@ -35,7 +31,6 @@
 }
 
 .socials__item {
-    display: inline-block;
     width: 30px;
     height: 30px;
     margin-left: 8px;

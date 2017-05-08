@@ -2778,6 +2778,10 @@ body {
   box-sizing: border-box;
   background-color: #f6f6f6; }
 
+ul, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
 .wrapper {
   position: relative;
   overflow: hidden;
@@ -2800,6 +2804,19 @@ body {
 
 .clearfix:after {
   clear: both; }
+
+.va__container {
+  font-size: 0; }
+
+.va__container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.va__item {
+  display: inline-block;
+  vertical-align: middle; }
 
 .content {
   float: right;
@@ -2872,33 +2889,39 @@ body {
 .header {
   background-color: white;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  height: 80px;
+  padding: 10px 0;
   margin-bottom: 25px; }
 
+.header__content {
+  height: 60px;
+  min-height: 60px; }
+
 .header__left {
-  float: left; }
+  width: 50%; }
 
 .header__right {
-  float: right; }
+  width: 50%;
+  text-align: right; }
 
-.avatar__logo-block {
-  float: left;
-  background-color: #d7d7d7;
+.logo__img {
+  width: 56px;
+  height: 56px;
   border-radius: 100px;
-  padding: 2px; }
+  border: solid 2px;
+  border-color: #d7d7d7; }
 
-.avatar__logo {
-  width: 62px;
-  height: 62px;
-  border-radius: 100px;
-  vertical-align: middle; }
-
-.avatar__fio {
-  display: inline-block;
-  vertical-align: middle;
+.logo__text {
   font-size: 18px;
   font-weight: 400;
   margin-left: 20px; }
+
+.contacts__link {
+  font-size: 18px;
+  color: #32c3e5;
+  font-weight: bold;
+  line-height: 1.556;
+  text-decoration: none;
+  background: url(../img/decor/dotted_bg.png) bottom repeat-x; }
 
 .sidebar {
   float: left;

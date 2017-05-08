@@ -11,6 +11,11 @@ body {
     background-color: rgb(246, 246, 246);    
 }
 
+ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
     position: relative;
     overflow: hidden;
@@ -37,6 +42,21 @@ body {
 
 .clearfix:after {
     clear: both;
+}
+
+.va__container {
+    font-size: 0;
+}
+
+.va__container:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.va__item {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .button {

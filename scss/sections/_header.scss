@@ -34,10 +34,10 @@
 }
 
 .my-contacts {
-
+    position: relative;
 }
 
-.my-contacts:hover .my-contacts__detail {
+.my-contacts:hover .my-contacts__detail, .my-contacts__detail:hover .my-contacts__detail {
     display: block;
 }
 
@@ -50,20 +50,20 @@
     background: url(../img/decor/dotted_bg.png) bottom repeat-x;
 }
 
-// ----
 .my-contacts__detail {
     font-size: 16px;
     text-align: left;
     position: absolute;
     display: none;
     list-style-type: none;
-    width: 220px;
     background-color: white;
     border: 1px solid #dedede;
     border-radius: 10px;
     z-index: 10;
-    // temp
-    height: 100px;
+    padding: 10px 15px;
+    top: 35px;
+    left: -57px;
+    width: 210px;
 }
 
 .my-contacts__detail:before {
@@ -99,9 +99,15 @@
 }
 
 .my-contacts__detail-item {
-
+    margin: 5px 0;
 }
 
-.my-contacts__detail-text {
+.my-contacts__detail-link {
+    color: $grey;
+    text-decoration: none;
+}
 
+.my-contacts__detail-icon {
+    color: $blue;
+    margin-right: 10px;
 }

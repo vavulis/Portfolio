@@ -8,7 +8,7 @@
 }
 
 .nav__items {
-
+    padding-right: 20px;
 }
 
 .nav__item {
@@ -27,6 +27,19 @@
     color: $blue;
 }
 
+.nav__item-link--active:after {
+    content: '';
+    background-image: -moz-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    position: absolute;
+    top: 103px;
+    width: 6px;
+    height: 44px;
+    z-index: 60;
+    margin-left: 25px;
+}
+
 .nav__item-icon {
     margin-right: 10px;
 }
@@ -34,5 +47,3 @@
 .nav__item-text {
 
 }
-
-// --------------

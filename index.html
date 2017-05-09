@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>About</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script scr="./js/jquery.nicescroll.min"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -59,7 +61,7 @@
 		<div class="container footer__container va__container">
 			<div class="footer__left va__item">
 				<div class="footer__copyryte">
-					&copy Дизайн сайта был разработан в школе LoftSchool
+					&copy; Дизайн сайта был разработан в школе LoftSchool
 				</div>
 			</div>
 			<div class="footer__right va__item">
@@ -71,5 +73,14 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		$(".about-me__description-content").niceScroll({
+			cursorcolor: "#9DA2A8 ",
+			cursorborderradius: "5px",
+			railpadding: { top: 0, right: 0, left: 0, bottom: 0 },
+			autohidemode: false,
+			cursorminheight: 32
+		});
+	</script>
 </body>
 </html>

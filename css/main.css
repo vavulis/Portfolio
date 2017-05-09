@@ -2905,7 +2905,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   text-align: left;
   width: 348px;
   height: 317px;
-  margin-bottom: 37px; }
+  margin-bottom: 37px;
+  padding-right: 15px; }
 
 .footer {
   position: relative;

@@ -21,7 +21,13 @@
     font-size: 18px;
     color: rgb(65, 65, 65);
     text-decoration: none;
+    line-height: 1.333;
 }
+
+.nav__item-link--active {
+  font-weight: 700;
+}
+
 
 .nav__item-link:hover, .nav__item-link--active {
     color: $blue;

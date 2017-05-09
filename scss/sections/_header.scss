@@ -37,8 +37,23 @@
     position: relative;
 }
 
+.my-contacts:after {
+    content: ' ';
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 0px;
+    width: 200px;
+    left: -35px
+}
+
 .my-contacts:hover .my-contacts__detail, .my-contacts__detail:hover .my-contacts__detail {
     display: block;
+}
+
+.my-contacts:hover .my-contacts__link {
+    color: $red;
+    background: url(../img/decor/dotted_bg_hover.png) bottom repeat-x;
 }
 
 .my-contacts__link {
@@ -51,8 +66,10 @@
 }
 
 .my-contacts__detail {
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
+    color: rgb(65, 65, 65);
+    line-height: 1.556;
     position: absolute;
     display: none;
     list-style-type: none;
@@ -60,10 +77,10 @@
     border: 1px solid #dedede;
     border-radius: 10px;
     z-index: 10;
-    padding: 10px 15px;
-    top: 35px;
-    left: -57px;
-    width: 210px;
+    padding: 0px 20px;
+    top: 40px;
+    left: -80px;
+    width: 235px;
 }
 
 .my-contacts__detail:before {
@@ -82,7 +99,7 @@
     border-bottom: 11px solid #dedede;
 }
 
-.my-contacts__detail:after {
+.my-contacts__detail:after {    
     content: "";
     position: absolute;
     top: -10px;
@@ -99,7 +116,7 @@
 }
 
 .my-contacts__detail-item {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 .my-contacts__detail-link {

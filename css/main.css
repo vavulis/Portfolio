@@ -3061,6 +3061,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   padding-right: 20px; }
 
 .nav__item {
+  position: relative;
   list-style: none;
   text-align: right;
   padding: 12px; }
@@ -3083,7 +3084,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-linear-gradient(90deg, #33b7dc 0%, #32c9e9 100%);
   background-image: -ms-linear-gradient(90deg, #33b7dc 0%, #32c9e9 100%);
   position: absolute;
-  top: 103px;
+  top: 0;
   width: 6px;
   height: 44px;
   z-index: 60;

@@ -2781,6 +2781,9 @@ template {
   vertical-align: middle; }
 
 /*Настройка шаблона, глобальные стили тегов (body, wrapper, ссылки, списки, заголовки и т.п)*/
+* {
+  box-sizing: border-box; }
+
 html,
 body {
   width: 100%;
@@ -2808,8 +2811,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .container {
   width: 960px;
-  margin: 0 auto;
-  max-width: 940px; }
+  margin: 0 auto; }
 
 .clearfix:after, .clearfix:before {
   content: "";
@@ -2874,10 +2876,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   height: 30px;
   background-position: -87px -5px; }
 
-.content {
-  float: right;
-  width: 70%; }
-
 .about-me__photo-block {
   float: left; }
 
@@ -2907,6 +2905,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   height: 317px;
   margin-bottom: 37px;
   padding-right: 15px; }
+
+.content {
+  float: right;
+  width: 75%; }
 
 .footer {
   position: relative;
@@ -3053,12 +3055,40 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: #33c1e3;
   margin-right: 10px; }
 
+.work {
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  height: 281px;
+  margin: 0 16px 16px 0; }
+
+.work__name {
+  font-size: 21px;
+  color: #33c1e3;
+  line-height: 1.143; }
+
+.work__description {
+  font-size: 14px;
+  color: #414141;
+  line-height: 1.5; }
+
+.work__type {
+  font-size: 18px;
+  color: #aeaeae;
+  line-height: 1.333; }
+
+.bordered {
+  border: solid 1px; }
+
 .sidebar {
   float: left;
   width: 25%; }
 
-.nav__items {
-  padding-right: 20px; }
+.nav {
+  margin-right: 38px; }
 
 .nav__item {
   position: relative;
@@ -3088,7 +3118,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   width: 6px;
   height: 44px;
   z-index: 60;
-  margin-left: 25px; }
+  margin-left: 24px; }
 
 .nav__item-icon {
   margin-right: 10px; }

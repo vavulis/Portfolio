@@ -1,0 +1,42 @@
+.about-me {
+
+}
+
+.about-me__photo-block {
+    float: left;   
+}
+
+.about-me__photo {
+    width: 220px;
+    height: 220px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(246, 246, 246);
+}
+
+.about-me__description-block {
+    float: right;
+    text-align: right;
+}
+
+.about-me__description-caption {
+    text-align: left;
+}
+
+.about-me__description-content {
+    overflow-y: auto;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    line-height: 1.444;
+    text-align: left;
+    width: 348px;
+    height: 317px;
+    margin-bottom: 37px;
+    padding-right: 15px;
+}
+
+.about-me__download-btn {
+
+}

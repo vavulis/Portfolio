@@ -1,5 +1,9 @@
 /*Настройка шаблона, глобальные стили тегов (body, wrapper, ссылки, списки, заголовки и т.п)*/
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     width: 100%;
@@ -32,7 +36,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .container {
     width: 960px;
     margin: 0 auto;
-    max-width: 940px;
 }
 
 .clearfix:after, .clearfix:before {

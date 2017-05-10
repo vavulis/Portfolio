@@ -3058,13 +3058,20 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .work {
   display: inline-block;
-  position: relative;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   width: 220px;
   height: 281px;
   margin: 0 16px 16px 0; }
+
+.work__img {
+  height: 172px;
+  width: 220px;
+  border-radius: 10px 10px 0 0; }
+
+.work__info-wrap {
+  margin: 20px 20px 17px 20px; }
 
 .work__name {
   font-size: 21px;
@@ -3080,6 +3087,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   color: #aeaeae;
   line-height: 1.333; }
+
+.work__type-text {
+  font-size: 14px; }
 
 .bordered {
   border: solid 1px; }

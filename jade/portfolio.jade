@@ -1,0 +1,18 @@
+doctype html
+html(lang='ru')
+    head
+        meta(charset='UTF-8')
+        title Портфолио
+        link(rel='stylesheet', href='css/main.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+        script(src='js/jquery.nicescroll.min.js')
+        script(src='js/main.js')
+    body
+        .wrapper
+            include includes/_header.jade
+            section
+                .container.clearfix
+                    include includes/_sidebar.jade
+                    main.content
+                        include includes/_portfolio.content.jade
+        include includes/_footer.jade

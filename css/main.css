@@ -2877,7 +2877,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   background-position: -87px -5px; }
 
 .about-me__photo-block {
-  float: left; }
+  float: left;
+  margin-left: 60px; }
 
 .about-me__photo {
   width: 220px;
@@ -3012,7 +3013,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   padding: 0px 20px;
   top: 40px;
   left: -80px;
-  width: 235px; }
+  width: 274px; }
 
 .my-contacts__detail:before {
   content: "";

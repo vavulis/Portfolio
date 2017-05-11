@@ -1,46 +1,97 @@
-.content__caption Портфолио
-.work
-	.work__img-block
-		img.work__img(src='img/portfolio/work1.png', alt='Работа 1')
-	.work__info-wrap
-		.work__name Deals App
-		.work__description Продажа одежды
-		.work__type
-			.work__type-icon
-			.work__type-text Приложение
-.work
-	.work__img-block
-		img.work__img(src='img/portfolio/work2.png', alt='Работа 2')
-	.work__info-wrap
-		.work__name Deals App
-		.work__description Лагуна люфтганза
-		.work__type
-			.work__type-icon
-			.work__type-text Лендинг
-.work
-	.work__img-block
-		img.work__img(src='img/portfolio/work3.png', alt='Работа 3')
-	.work__info-wrap
-		.work__name Deals App
-		.work__description Танцевальная студия
-		.work__type
-			.work__type-icon
-			.work__type-text Корпоративный сайт
-.work
-	.work__img-block
-		img.work__img(src='img/portfolio/work4.png', alt='Работа 4')
-	.work__info-wrap
-		.work__name Deals App
-		.work__description Мебельный магазин
-		.work__type
-			.work__type-icon
-			.work__type-text Лендинг
-.work
-	.work__img-block
-		img.work__img(src='img/portfolio/work5.png', alt='Работа 5')
-	.work__info-wrap
-		.work__name Deals App
-		.work__description Итальянский ресторан
-		.work__type
-			.work__type-icon
-			.work__type-text Лендинг
+- var works = {
+- 	{
+-		"img":	"src='img/portfolio/work1.png', alt='Работа 1'",
+- 		"name":	"Deals App",
+- 		"description":	"Продажа одежды",
+- 		"typeIcon":	"i.fa.fa-mobile.work__type-icon",
+- 		"typeText":	"Приложение"
+- 	},
+- 	{
+-		"img":	"src='img/portfolio/work1.png', alt='Работа 1'",
+- 		"name":	"Deals App",
+- 		"description":	"Продажа одежды",
+- 		"typeIcon":	"i.fa.fa-mobile.work__type-icon",
+- 		"typeText":	"Приложение"
+- 	},
+- 	{
+-		"img":	"src='img/portfolio/work1.png', alt='Работа 1'",
+- 		"name":	"Deals App",
+- 		"description":	"Продажа одежды",
+- 		"typeIcon":	"i.fa.fa-mobile.work__type-icon",
+- 		"typeText":	"Приложение"
+- 	},
+- 	{
+-		"img":	"src='img/portfolio/work1.png', alt='Работа 1'",
+- 		"name":	"Deals App",
+- 		"description":	"Продажа одежды",
+- 		"typeIcon":	"i.fa.fa-mobile.work__type-icon",
+- 		"typeText":	"Приложение"
+- 	},
+- 	{
+-		"img":	"src='img/portfolio/work1.png', alt='Работа 1'",
+- 		"name":	"Deals App",
+- 		"description":	"Продажа одежды",
+- 		"typeIcon":	"i.fa.fa-mobile.work__type-icon",
+- 		"typeText":	"Приложение"
+- 	}
+- }
+
+div
+//- .content__caption Портфолио
+//- for work in works
+//- 	.work
+//- 		.work__img-block
+//- 			img.work__img(#{work.img})
+//- 		.work__info-wrap
+//- 			.work__name #{work.name}
+//- 			.work__description #{work.description}
+//- 			.work__type
+//- 				#{work.typeIcon}
+//- 				span.work__type-text #{work.typeText}
+
+//- .content__caption Портфолио
+//- .work
+//- 	.work__img-block
+//- 		img.work__img(src='img/portfolio/work1.png', alt='Работа 1')
+//- 	.work__info-wrap
+//- 		.work__name Deals App
+//- 		.work__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos temporibus recusandae, quis at officiis ex magni sunt, expedita minus enim aut. Unde cupiditate, molestiae, et aliquid molestias ipsum enim! Voluptatibus dolorem, cumque quidem, fugiat dolorum, molestias illum maxime nobis nihil voluptas quisquam assumenda atque iusto totam. Consequatur doloremque, maxime autem.
+//- 		.work__type
+//- 			i.fa.fa-mobile.work__type-icon
+//- 			span.work__type-text Приложение
+//- .work
+//- 	.work__img-block
+//- 		img.work__img(src='img/portfolio/work2.png', alt='Работа 2')
+//- 	.work__info-wrap
+//- 		.work__name Deals App
+//- 		.work__description Лагуна люфтганза
+//- 		.work__type
+//- 			i.fa.fa-desktop.work__type-icon
+//- 			span.work__type-text Лендинг
+//- .work
+//- 	.work__img-block
+//- 		img.work__img(src='img/portfolio/work3.png', alt='Работа 3')
+//- 	.work__info-wrap
+//- 		.work__name Deals App
+//- 		.work__description Танцевальная студия
+//- 		.work__type
+//- 			i.fa.fa-desktop.work__type-icon
+//- 			span.work__type-text Корпоративный сайт
+//- .work
+//- 	.work__img-block
+//- 		img.work__img(src='img/portfolio/work4.png', alt='Работа 4')
+//- 	.work__info-wrap
+//- 		.work__name Deals App
+//- 		.work__description Мебельный магазин
+//- 		.work__type
+//- 			i.fa.fa-desktop.work__type-icon
+//- 			span.work__type-text Лендинг
+//- .work
+//- 	.work__img-block
+//- 		img.work__img(src='img/portfolio/work5.png', alt='Работа 5')
+//- 	.work__info-wrap
+//- 		.work__name Deals App
+//- 		.work__description Итальянский ресторан
+//- 		.work__type
+//- 			i.fa.fa-desktop.work__type-icon
+//- 			span.work__type-text Лендинг

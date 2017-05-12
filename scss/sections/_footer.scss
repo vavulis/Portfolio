@@ -1,5 +1,6 @@
 .footer {
     position: relative;
+    min-width: 960px;
     height: $footerHeight;
     margin-top: -$footerHeight;
     background-color: rgb(65, 65, 65);

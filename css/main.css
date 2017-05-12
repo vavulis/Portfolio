@@ -3046,10 +3046,12 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
   color: #414141;
   line-height: 1.286;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 20px; }
 
 .footer {
   position: relative;
+  min-width: 960px;
   height: 50px;
   margin-top: -50px;
   background-color: #414141; }
@@ -3081,16 +3083,18 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .about-me__photo-block {
   float: left;
-  margin-left: 60px; }
-
-.about-me__photo {
-  width: 220px;
-  height: 220px;
+  margin-left: 60px;
+  overflow: hidden;
+  width: 230px;
+  height: 230px;
   border-style: solid;
   border-width: 5px;
   border-color: white;
   border-radius: 50%;
   background-color: #f6f6f6; }
+
+.about-me__photo {
+  width: 100%; }
 
 .about-me__description-block {
   float: right;
@@ -3107,6 +3111,23 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 37px;
   padding-right: 15px; }
 
+.career__photo-block {
+  border: solid 1px;
+  float: left; }
+
+.career__work-places-block {
+  border: solid 1px;
+  float: right; }
+
+.career__work-place {
+  position: relative;
+  list-style-type: none;
+  border: solid 1px; }
+
+.career__work-year {
+  display: inline-block;
+  border: solid 1px; }
+
 .work {
   display: inline-block;
   border-radius: 10px;
@@ -3114,7 +3135,14 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   width: 220px;
   min-height: 281px;
-  margin: 0 16px 16px 0; }
+  margin: 0 16px 16px 0;
+  text-decoration: none; }
+
+.work:hover {
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5); }
+
+.work:hover .work__name {
+  color: #e85f61; }
 
 .work__img {
   height: 172px;

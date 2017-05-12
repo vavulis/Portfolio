@@ -5,16 +5,18 @@
 .about-me__photo-block {
     float: left;   
     margin-left: 60px;
-}
-
-.about-me__photo {
-    width: 220px;
-    height: 220px;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(255, 255, 255);
     border-radius: 50%;
     background-color: rgb(246, 246, 246);
+}
+
+.about-me__photo {
+    width: 100%;
 }
 
 .about-me__description-block {

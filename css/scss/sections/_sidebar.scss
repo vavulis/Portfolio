@@ -1,0 +1,55 @@
+.sidebar {
+    float: left;
+    width: 25%;
+}
+
+.nav {
+    margin-right: 38px;
+}
+
+.nav__items {
+}
+
+.nav__item {
+    position: relative;
+    list-style: none;
+    text-align: right;
+    padding: 12px;
+}
+
+.nav__item-link {
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    line-height: 1.333;
+}
+
+.nav__item-link--active {
+    font-weight: 700;
+}
+
+
+.nav__item-link:hover, .nav__item-link--active {
+    color: $blue;
+}
+
+.nav__item-link--active:after {
+    content: '';
+    background-image: -moz-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(51,183,220) 0%, rgb(50,201,233) 100%);
+    position: absolute;
+    top: 0;
+    width: 6px;
+    height: 44px;
+    z-index: 60;
+    margin-left: 24px;
+}
+
+.nav__item-icon {
+    margin-right: 10px;
+}
+
+.nav__item-text {
+
+}

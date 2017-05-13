@@ -1,0 +1,57 @@
+.footer {
+    position: relative;
+    min-width: 960px;
+    height: $footerHeight;
+    margin-top: -$footerHeight;
+    background-color: rgb(65, 65, 65);
+}
+
+.footer__container {
+    height: 100%;
+}
+
+.footer__left {
+    width: 50%;
+}
+
+.footer__right {
+    width: 50%;
+    text-align: right;
+}
+
+.footer__copyryte {
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+}
+
+.socials {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.socials__item {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.socials__link {
+
+}
+
+.socials--fb {
+
+}
+
+.socials--vk {
+
+}
+
+.socials--tw {
+
+}
+
+// -------------------------------------
+

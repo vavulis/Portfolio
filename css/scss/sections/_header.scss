@@ -1,0 +1,130 @@
+.header {
+    height: $headerHeight;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+}
+
+.header__container {
+    height: 100%;
+    min-height: $headerContentMinHeight;
+}
+
+.header__left {
+    width: 50%;
+}
+
+.header__right {
+    width: 50%;
+    text-align: right;
+}
+
+.logo__img {
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    border: solid 2px;
+    border-color: rgb(215, 215, 215);
+}
+
+.logo__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.my-contacts {
+    position: relative;
+}
+
+.my-contacts:after {
+    content: ' ';
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 0px;
+    width: 200px;
+    left: -35px
+}
+
+.my-contacts:hover .my-contacts__detail, .my-contacts__detail:hover .my-contacts__detail {
+    display: block;
+}
+
+.my-contacts:hover .my-contacts__link {
+    color: $red;
+    background: url(../img/decor/dotted_bg_hover.png) bottom repeat-x;
+}
+
+.my-contacts__link {
+    font-size: 18px;
+    color: rgb(50, 195, 229);
+    font-weight: bold;
+    line-height: 1.556;
+    text-decoration: none;
+    background: url(../img/decor/dotted_bg.png) bottom repeat-x;
+}
+
+.my-contacts__detail {
+    font-size: 18px;
+    text-align: left;
+    color: rgb(65, 65, 65);
+    line-height: 1.556;
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    z-index: 10;
+    padding: 0px 20px;
+    top: 40px;
+    left: -80px;
+    width: 274px;
+}
+
+.my-contacts__detail:before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #dedede;
+}
+
+.my-contacts__detail:after {    
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
+.my-contacts__detail-item {
+    margin: 15px 0;
+}
+
+.my-contacts__detail-link {
+    color: $grey;
+    text-decoration: none;
+}
+
+.my-contacts__detail-icon {
+    color: $blue;
+    margin-right: 10px;
+}

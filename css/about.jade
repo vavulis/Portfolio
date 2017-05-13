@@ -1,0 +1,32 @@
+doctype html
+html(lang='ru')
+    head
+        meta(charset='UTF-8')
+        title Обо мне
+        link(rel='stylesheet', href='css/main.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+        script(src='js/jquery.nicescroll.min.js')
+        script(src='js/main.js')
+    body
+        .wrapper
+            include jade/sections/header/_header.jade
+            section
+                .container.clearfix
+                    aside.sidebar
+                        nav.nav
+                            ul.nav__items
+                                li.nav__item
+                                    a.nav__item-link.nav__item-link--active(href='about.html')
+                                        i.nav__item-icon.fa.fa-user-secret
+                                        span.nav__item-text Обо мне
+                                li.nav__item
+                                    a.nav__item-link(href='career.html')
+                                        i.nav__item-icon.fa.fa-rocket
+                                        span.nav__item-text Карьерный путь
+                                li.nav__item
+                                    a.nav__item-link(href='portfolio.html')
+                                        i.nav__item-icon.fa.fa-briefcase
+                                        span.nav__item-text Портфолио
+                    main.content
+                        include jade/sections/content/_about.content.jade
+        include jade/sections/footer/_footer.jade

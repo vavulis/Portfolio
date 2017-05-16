@@ -3112,8 +3112,16 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   padding-right: 15px; }
 
 .career__photo-block {
-  border: solid 1px;
-  float: left; }
+  float: left;
+  border-radius: 9px;
+  background-color: #5a5a5a;
+  width: 220px;
+  height: 220px;
+  overflow: hidden; }
+
+.career__photo {
+  width: 220px;
+  height: 220px; }
 
 .block-works {
   float: right;

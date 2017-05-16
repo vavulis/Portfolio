@@ -1,17 +1,17 @@
 // Вертикальное выравнивание на базе inline-block
 
-.va__container {
+.vert-align__container {
     font-size: 0;
 }
 
-.va__container:before {
+.vert-align__container:before {
     content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.va__item {
+.vert-align__item {
     display: inline-block;
     vertical-align: middle;
 }

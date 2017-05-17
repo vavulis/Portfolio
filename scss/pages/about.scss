@@ -2,7 +2,7 @@
 
 }
 
-.about-me__photo-block {
+.about-me__img-wrap {
     float: left;   
     overflow: hidden;
     width: 230px;
@@ -12,13 +12,14 @@
     border-color: rgb(255, 255, 255);
     border-radius: 50%;
     background-color: rgb(246, 246, 246);
+    margin-left: 40px;
 }
 
-.about-me__photo {
+.about-me__img {
     width: 100%;
 }
 
-.about-me__description-block {
+.about-me__description-wrap {
     float: right;
     text-align: right;
 }
@@ -29,9 +30,9 @@
     color: rgb(100, 100, 100);
     line-height: 1.444;
     text-align: left;
-    width: 348px;
+    width: 380px;
     height: 317px;
-    margin-bottom: 37px;
+    margin-bottom: 78px;
     padding-right: 15px;
 }
 

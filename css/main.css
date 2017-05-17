@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -2808,7 +2809,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .wrapper {
   position: relative;
   overflow: hidden;
-  min-width: 960px;
+  min-width: 940px;
   min-height: 100%; }
 
 .wrapper:after {
@@ -2817,8 +2818,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   display: block; }
 
 .container {
-  width: 960px;
-  max-width: 960px;
+  width: 940px;
+  max-width: 940px;
   margin: 0 auto; }
 
 .clearfix:after, .clearfix:before {
@@ -2835,7 +2836,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: #e85f61;
   border-style: solid;
   text-decoration: none;
-  padding: 5px 15px;
+  padding: 4px 6px;
   border-radius: 100px;
   font-size: 14px;
   font-weight: bold;
@@ -2847,7 +2848,16 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: white; }
 
 .button__icon {
-  margin-right: 9px; }
+  margin-right: 9px;
+  padding-left: 7px; }
+
+.button__text {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  padding-right: 6px; }
 
 .sprite {
   background-image: url(../img/sprites/spritesheet.png);
@@ -2902,8 +2912,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   text-align: right; }
 
 .logo__img {
-  width: 56px;
-  height: 56px;
+  width: 58px;
+  height: 58px;
   border-radius: 100px;
   border: solid 2px;
   border-color: #d7d7d7; }
@@ -2911,10 +2921,12 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .logo__text {
   font-size: 18px;
   font-weight: 400;
-  margin-left: 20px; }
+  margin-left: 20px;
+  margin-top: 3px; }
 
 .my-contacts {
-  position: relative; }
+  position: relative;
+  margin-top: 3px; }
 
 .my-contacts:after {
   content: ' ';
@@ -3003,13 +3015,13 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   width: 25%; }
 
 .nav {
-  margin-right: 38px; }
+  margin-right: 34px; }
 
 .nav__item {
   position: relative;
   list-style: none;
   text-align: right;
-  padding: 12px; }
+  padding: 11px; }
 
 .nav__item-link {
   font-size: 18px;
@@ -3048,7 +3060,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: #414141;
   line-height: 1.286;
   text-align: left;
-  margin-bottom: 20px; }
+  margin-bottom: -4px;
+  margin-top: -3px; }
 
 .footer {
   position: relative;
@@ -3082,7 +3095,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   height: 30px;
   margin-left: 8px; }
 
-.about-me__photo-block {
+.about-me__img-wrap {
   float: left;
   overflow: hidden;
   width: 230px;
@@ -3091,12 +3104,13 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   border-width: 5px;
   border-color: white;
   border-radius: 50%;
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  margin-left: 40px; }
 
-.about-me__photo {
+.about-me__img {
   width: 100%; }
 
-.about-me__description-block {
+.about-me__description-wrap {
   float: right;
   text-align: right; }
 
@@ -3106,9 +3120,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: #646464;
   line-height: 1.444;
   text-align: left;
-  width: 348px;
+  width: 380px;
   height: 317px;
-  margin-bottom: 37px;
+  margin-bottom: 78px;
   padding-right: 15px; }
 
 .career__img-wrap {

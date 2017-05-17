@@ -3012,7 +3012,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
   float: left;
-  width: 25%; }
+  width: 220px; }
 
 .nav {
   margin-right: 34px; }
@@ -3052,7 +3052,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .content {
   float: right;
-  width: 75%; }
+  width: 720px; }
 
 .content__caption {
   font-family: 'fira_sansmedium';
@@ -3061,7 +3061,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   line-height: 1.286;
   text-align: left;
   margin-bottom: -4px;
-  margin-top: -3px; }
+  margin-top: -3px;
+  margin-left: 18px; }
 
 .footer {
   position: relative;
@@ -3131,11 +3132,14 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   background-color: #5a5a5a;
   width: 220px;
   height: 220px;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-left: 6px;
+  margin-top: 25px; }
 
 .career__works {
   float: right;
-  margin-right: 20px; }
+  margin-right: -1px;
+  margin-top: 25px; }
 
 .block-works {
   float: right;
@@ -3158,7 +3162,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .block-works__time {
   position: absolute;
   top: 50%;
-  right: 110%;
+  right: 109%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -3188,7 +3192,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .block-works__item:after, .block-works__item:before {
   content: "";
   position: absolute;
-  left: -23px;
+  left: -21px;
   width: 1px;
   background-color: #ddd; }
 
@@ -3238,6 +3242,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .block-works__item:hover .block-works__item-name, .block-works__item:hover .block-works__item-type, .block-works__item:hover .block-works__item-date {
   color: #fff; }
 
+.works-wrap {
+  margin-top: 22px; }
+
 .work {
   display: inline-block;
   border-radius: 10px;
@@ -3245,7 +3252,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   width: 220px;
   min-height: 281px;
-  margin: 0 16px 16px 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
   text-decoration: none; }
 
 .work:hover {

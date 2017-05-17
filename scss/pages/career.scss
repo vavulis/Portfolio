@@ -8,11 +8,14 @@
     width: 220px;
     height: 220px;
     overflow: hidden;
+    margin-left: 6px;
+    margin-top: 25px;
 }
 
 .career__works {
     float: right;
-    margin-right: 20px;
+    margin-right: -1px;
+    margin-top: 25px;
 }
 
 .block-works{
@@ -38,7 +41,7 @@
 .block-works__time {
     position: absolute;
     top: 50%;
-    right: 110%;
+    right: 109%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -71,7 +74,7 @@
 .block-works__item:after,  .block-works__item:before {
     content: "";
     position: absolute;
-    left: -23px;
+    left: -21px;
     width: 1px;
     background-color: #ddd;
 }

@@ -1,6 +1,7 @@
 .career {
 
 }
+
 .career__img-wrap {
     float: left;
     border-radius: 9px;
@@ -8,20 +9,18 @@
     width: 220px;
     height: 220px;
     overflow: hidden;
-    margin-left: 6px;
-    margin-top: 25px;
+    margin-top: 21px;
+    margin-left: 20px;
 }
 
-.career__works {
-    float: right;
-    margin-right: -1px;
-    margin-top: 25px;
+.content__caption--career {
+    margin-left: 19px;
+    margin-top: -3px;
 }
 
 .block-works{
-  float:right;
-  margin:0;
-  padding:0;
+    float:right;
+    margin-top: 21px;
 }
 
 .block-works__item {

@@ -1,5 +1,10 @@
+.content__caption--portfolio {
+    margin-top: -3px;
+    margin-left: 18px;
+}
+
 .works-wrap {
-    margin-top: 22px;
+    margin-top: 18px;
 }
 
 .work {
@@ -33,22 +38,24 @@
 }
 
 .work__name {
-  font-size: 21px;
-  color: $blue;
-  line-height: 1.143;
+    font-size: 21px;
+    color: $blue;
+    line-height: 1.143;
+    margin-top: -7px;
+    margin-left: -2px;
 }
 
 .work__description {
-  font-size: 14px;
-  color: rgb(65, 65, 65);
-  line-height: 1.5;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    line-height: 1.5;
 }
 
 .work__type {
-  font-size: 18px;
-  color: rgb(174, 174, 174);
-  line-height: 1.333;
-  margin-top: 6px;
+    font-size: 18px;
+    color: rgb(174, 174, 174);
+    line-height: 1.333;
+    margin-top: 10px;
 }
 
 .work__type-icon {

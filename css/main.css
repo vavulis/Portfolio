@@ -3015,7 +3015,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   width: 220px; }
 
 .nav {
-  margin-right: 34px; }
+  margin-right: 19px; }
 
 .nav__item {
   position: relative;
@@ -3059,10 +3059,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
   color: #414141;
   line-height: 1.286;
-  text-align: left;
-  margin-bottom: -4px;
-  margin-top: -3px;
-  margin-left: 18px; }
+  text-align: left; }
 
 .footer {
   position: relative;
@@ -3106,7 +3103,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   border-color: white;
   border-radius: 50%;
   background-color: #f6f6f6;
-  margin-left: 40px; }
+  margin-left: 55px; }
 
 .about-me__img {
   width: 100%; }
@@ -3126,6 +3123,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 78px;
   padding-right: 15px; }
 
+.content__caption--about {
+  margin-bottom: -7px; }
+
 .career__img-wrap {
   float: left;
   border-radius: 9px;
@@ -3133,18 +3133,16 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   width: 220px;
   height: 220px;
   overflow: hidden;
-  margin-left: 6px;
-  margin-top: 25px; }
+  margin-top: 21px;
+  margin-left: 20px; }
 
-.career__works {
-  float: right;
-  margin-right: -1px;
-  margin-top: 25px; }
+.content__caption--career {
+  margin-left: 19px;
+  margin-top: -3px; }
 
 .block-works {
   float: right;
-  margin: 0;
-  padding: 0; }
+  margin-top: 21px; }
 
 .block-works__item {
   position: relative;
@@ -3242,8 +3240,12 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .block-works__item:hover .block-works__item-name, .block-works__item:hover .block-works__item-type, .block-works__item:hover .block-works__item-date {
   color: #fff; }
 
+.content__caption--portfolio {
+  margin-top: -3px;
+  margin-left: 18px; }
+
 .works-wrap {
-  margin-top: 22px; }
+  margin-top: 18px; }
 
 .work {
   display: inline-block;
@@ -3273,7 +3275,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .work__name {
   font-size: 21px;
   color: #33c1e3;
-  line-height: 1.143; }
+  line-height: 1.143;
+  margin-top: -7px;
+  margin-left: -2px; }
 
 .work__description {
   font-size: 14px;
@@ -3284,7 +3288,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   color: #aeaeae;
   line-height: 1.333;
-  margin-top: 6px; }
+  margin-top: 10px; }
 
 .work__type-icon {
   margin-right: 6px; }

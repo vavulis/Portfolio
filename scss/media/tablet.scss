@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .logo__text:after {
+        content: ' - tablet';
+        color: red;
+    }
+    .container {
+        width: 480px;
+    }
+}

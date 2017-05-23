@@ -31,7 +31,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .wrapper {
     position: relative;
     overflow: hidden;
-    min-width: 940px;
     min-height: 100%;       
 }
 
@@ -42,7 +41,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 940px;
     max-width: 940px;
     margin: 0 auto;
 }

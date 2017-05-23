@@ -17,6 +17,7 @@ $lightgrey: #f6f6f6;
 $blue: #33c1e3;
 $red: #e85f61;
 
+// layouts
 @import "layout/_normalize.scss";
 @import "layout/_fonts.scss";
 @import "layout/_font-awesome.scss";
@@ -25,13 +26,21 @@ $red: #e85f61;
 @import "layout/_typographics.scss";
 @import "layout/_sprites.scss";
 
+// sections
 @import "sections/_header.scss";
 @import "sections/_sidebar.scss";
 @import "sections/_content.scss";
 @import "sections/_footer.scss";
 
+// pages
 @import "pages/about.scss";
 @import "pages/career.scss";
 @import "pages/portfolio.scss";
+
+// adaptive
+@import "media/desktop.scss";
+@import "media/laptop.scss";
+@import "media/tablet.scss";
+@import "media/phone.scss";
 
 

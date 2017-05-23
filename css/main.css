@@ -2809,7 +2809,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .wrapper {
   position: relative;
   overflow: hidden;
-  min-width: 940px;
   min-height: 100%; }
 
 .wrapper:after {
@@ -2818,7 +2817,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   display: block; }
 
 .container {
-  width: 940px;
   max-width: 940px;
   margin: 0 auto; }
 
@@ -3063,7 +3061,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .footer {
   position: relative;
-  min-width: 960px;
   height: 50px;
   margin-top: -50px;
   background-color: #414141; }
@@ -3304,3 +3301,29 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 
 .bordered {
   border: solid 1px; }
+
+@media screen and (max-width: 1200px) {
+  .logo__text:after {
+    content: ' - desktop';
+    color: red; } }
+
+@media screen and (max-width: 992px) {
+  .logo__text:after {
+    content: ' - laptop';
+    color: red; }
+  .container {
+    width: 730px; } }
+
+@media screen and (max-width: 768px) {
+  .logo__text:after {
+    content: ' - tablet';
+    color: red; }
+  .container {
+    width: 480px; } }
+
+@media screen and (max-width: 480px) {
+  .logo__text:after {
+    content: ' - phone';
+    color: red; }
+  .container {
+    width: 95%; } }

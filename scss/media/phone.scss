@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .logo__text:after {
+        content: ' - phone';
+        color: red;
+    }
+    .container {
+        width: 95%;
+    }
+}

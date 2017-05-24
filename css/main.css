@@ -2950,6 +2950,13 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   background: url(../img/decor/dotted_bg.png) bottom repeat-x; }
 
+.my-contacts__tel {
+  display: none;
+  font-family: 'FontAwesome';
+  font-size: 40px;
+  color: #33c1e3;
+  line-height: 0.7; }
+
 .my-contacts__detail {
   font-size: 18px;
   text-align: left;
@@ -3365,11 +3372,48 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin-right: 0; } }
 
 @media screen and (max-width: 768px) {
+  .footer {
+    height: 94px;
+    margin-top: -94px; }
+  .wrapper:after {
+    height: 94px; }
+  .content {
+    width: 480px; }
   .logo__text:after {
     content: ' - tablet';
     color: red; }
   .container {
-    width: 480px; } }
+    width: 480px; }
+  .footer__container:before {
+    height: 0; }
+  .footer__left {
+    width: 100%;
+    text-align: center; }
+  .footer__right {
+    width: 100%;
+    text-align: center; }
+  .footer__copyryte {
+    margin-top: 19px; }
+  .socials {
+    margin: 9px 0 0 0; }
+  .about-me__img-wrap {
+    margin-left: 151px; }
+  .about-me__description-wrap {
+    margin-right: 0px;
+    margin-top: 8px; }
+  .about-me__description-content {
+    width: 480px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 27px; }
+  .content__caption--about {
+    text-align: center;
+    margin-bottom: -14px; }
+  .button {
+    margin-right: 159px; }
+  .my-contacts__link {
+    display: none; }
+  .my-contacts__tel {
+    display: inline-block; } }
 
 @media screen and (max-width: 480px) {
   .logo__text:after {

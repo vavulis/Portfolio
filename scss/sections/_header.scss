@@ -67,6 +67,14 @@
     background: url(../img/decor/dotted_bg.png) bottom repeat-x;
 }
 
+.my-contacts__tel {
+    display: none;
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    color: $blue;
+    line-height: 0.7;
+}
+
 .my-contacts__detail {
     font-size: 18px;
     text-align: left;

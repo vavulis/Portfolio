@@ -1,4 +1,18 @@
 @media screen and (max-width: 768px) {
+    // Меняем высоту футеру
+    $footerHeight: 94px;
+    .footer {
+        height: $footerHeight;
+        margin-top: -$footerHeight;
+    }
+    .wrapper:after {
+        height: $footerHeight;
+    }
+
+    .content {
+        width: 480px;
+    }
+
     .logo__text:after {
         content: ' - tablet';
         color: red;
@@ -6,4 +20,52 @@
     .container {
         width: 480px;
     }
+
+    .footer__container:before {
+        height: 0;
+    }
+    .footer__left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__copyryte {
+        margin-top: 19px;
+    }
+    .socials {
+        margin: 9px 0 0 0;
+    }
+
+    .about-me__img-wrap {
+        margin-left: 151px;
+    }
+    .about-me__description-wrap {
+        margin-right: 0px;
+        margin-top: 8px;
+    }
+    .about-me__description-content {
+        width: 480px;
+        padding: 0 20px 0 20px;
+        margin-bottom: 27px;
+    }
+    .content__caption--about {
+        text-align: center;
+        margin-bottom: -14px;
+    }
+    .button {
+        margin-right: 159px;
+    }
+
+
+    .my-contacts__link {
+        display: none;
+    }
+    .my-contacts__tel {
+        display: inline-block;
+    }
+
+
 }

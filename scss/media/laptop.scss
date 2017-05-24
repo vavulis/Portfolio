@@ -4,7 +4,51 @@
         color: red;
     }
     .container {
-        width: 730px;
+        width: 728px;
     }
+    .sidebar {
+        float: none;
+        width: 100%;
+    }
+
+    .nav__item {
+        display: inline-block;
+        padding: 0px;
+        margin-right: 21px;
+
+    }
+
+    .about-me__img-wrap {
+        width: 175px;
+        height: 175px;
+    }
+        
+    .sidebar {
+        margin-bottom: 41px;
+    }
+
+    .content {
+        float: none;
+        width: 690px;
+    }
+
+    .about-me__img-wrap {
+        margin-left: 25px;
+    }
+
+    .nav__item-link--active:after {
+        background-image: none;
+    }
+
+    .about-me__description-content {
+        width: 442px;
+        height: 365px;
+        margin-bottom: 73px;
+    }
+
+    .button {
+        margin-right: 28px;
+    }
+
 
 }

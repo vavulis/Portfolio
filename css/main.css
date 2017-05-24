@@ -2817,7 +2817,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   display: block; }
 
 .container {
-  max-width: 940px;
+  width: 940px;
   margin: 0 auto; }
 
 .clearfix:after, .clearfix:before {
@@ -3312,7 +3312,32 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     content: ' - laptop';
     color: red; }
   .container {
-    width: 730px; } }
+    width: 728px; }
+  .sidebar {
+    float: none;
+    width: 100%; }
+  .nav__item {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 21px; }
+  .about-me__img-wrap {
+    width: 175px;
+    height: 175px; }
+  .sidebar {
+    margin-bottom: 41px; }
+  .content {
+    float: none;
+    width: 690px; }
+  .about-me__img-wrap {
+    margin-left: 25px; }
+  .nav__item-link--active:after {
+    background-image: none; }
+  .about-me__description-content {
+    width: 442px;
+    height: 365px;
+    margin-bottom: 73px; }
+  .button {
+    margin-right: 28px; } }
 
 @media screen and (max-width: 768px) {
   .logo__text:after {

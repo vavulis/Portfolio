@@ -3133,6 +3133,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   margin-top: 21px;
   margin-left: 20px; }
 
+.career__img {
+  height: auto;
+  width: 100%; }
+
 .content__caption--career {
   margin-left: 19px;
   margin-top: -3px; }
@@ -3262,8 +3266,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   color: #e85f61; }
 
 .work__img {
-  height: 172px;
-  width: 220px;
+  height: auto;
+  width: 100%;
   border-radius: 10px 10px 0 0; }
 
 .work__info-wrap {
@@ -3327,17 +3331,38 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 41px; }
   .content {
     float: none;
-    width: 690px; }
+    width: 728px; }
   .about-me__img-wrap {
     margin-left: 25px; }
   .nav__item-link--active:after {
     background-image: none; }
+  .about-me__description-wrap {
+    margin-right: 38px; }
   .about-me__description-content {
     width: 442px;
     height: 365px;
     margin-bottom: 73px; }
   .button {
-    margin-right: 28px; } }
+    margin-right: 26px; }
+  .content__caption--career {
+    margin-left: 0;
+    margin-top: -2px; }
+  .career__img-wrap {
+    width: 228px;
+    height: 228px;
+    margin-top: 21px;
+    margin-left: 0px; }
+  .block-works__item {
+    width: 356px; }
+  .content__caption--portfolio {
+    margin-top: -22px;
+    margin-left: 0px; }
+  .work {
+    width: 228px;
+    margin: 0 20px 20px 0;
+    min-height: 291px; }
+  .work:nth-child(3n+3) {
+    margin-right: 0; } }
 
 @media screen and (max-width: 768px) {
   .logo__text:after {

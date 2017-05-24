@@ -1,0 +1,52 @@
+@media screen and (max-width: 992px) {
+  .logo__text:after {
+    content: ' - laptop';
+    color: red; }
+  .container {
+    width: 728px; }
+  .sidebar {
+    float: none;
+    width: 100%; }
+  .nav__item {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 21px; }
+  .about-me__img-wrap {
+    width: 175px;
+    height: 175px; }
+  .sidebar {
+    margin-bottom: 41px; }
+  .content {
+    float: none; }
+  .about-me__img-wrap {
+    margin-left: 25px; }
+  .nav__item-link--active:after {
+    background-image: none; }
+  .about-me__description-wrap {
+    margin-right: 30px; }
+  .about-me__description-content {
+    width: 442px;
+    height: 365px;
+    margin-bottom: 73px; }
+  .button {
+    margin-right: 28px; }
+  .content__caption--career {
+    margin-left: 0;
+    margin-top: -2px; }
+  .career__img-wrap {
+    width: 228px;
+    height: 228px;
+    margin-top: 21px;
+    margin-left: 0px; }
+  .block-works__item {
+    width: 356px;
+    margin-right: -8px; }
+  .content__caption--portfolio {
+    margin-top: -22px;
+    margin-left: 0px; }
+  .work {
+    width: 228px;
+    margin-left: 0;
+    margin-bottom: 0; }
+  .work:nth-child(3n+3) {
+    border: solid red 4px; } }

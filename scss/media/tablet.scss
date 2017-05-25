@@ -13,10 +13,6 @@
         width: 480px;
     }
 
-    .logo__text:after {
-        content: ' - tablet';
-        color: red;
-    }
     .container {
         width: 480px;
     }
@@ -87,12 +83,6 @@
     }
     .content__caption--portfolio {
         text-align: center;
-    }
-    // .work:nth-child(3n+3) {
-    //     margin-right: 10px;
-    // }
-    .work:nth-child(3n+2) {
-        margin-right: 0;
     }
 
 }

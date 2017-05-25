@@ -3395,7 +3395,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   .footer__copyryte {
     margin-top: 19px; }
   .socials {
-    margin: 9px 0 0 0; }
+    margin: 9px 15px 0 0; }
   .about-me__img-wrap {
     margin-left: 151px; }
   .about-me__description-wrap {
@@ -3408,12 +3408,32 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   .content__caption--about {
     text-align: center;
     margin-bottom: -14px; }
+  .content__caption--career {
+    text-align: center; }
   .button {
     margin-right: 159px; }
+  .career__img-wrap {
+    margin-left: 125px;
+    float: none; }
+  .block-works {
+    float: none;
+    margin: 21px 20px 0 20px; }
+  .block-works__item {
+    width: 100%; }
+  .block-works__time, .block-works__wrap-item:before, .block-works__item:after, .block-works__item:before {
+    display: none; }
   .my-contacts__link {
     display: none; }
   .my-contacts__tel {
-    display: inline-block; } }
+    display: inline-block; }
+  .my-contacts__detail {
+    left: -250px; }
+  .content__caption--portfolio {
+    text-align: center; }
+  .work:nth-child(3n+3) {
+    margin-right: 10px; }
+  .work:nth-child(3n+2) {
+    margin-right: 0; } }
 
 @media screen and (max-width: 480px) {
   .logo__text:after {

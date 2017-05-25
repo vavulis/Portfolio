@@ -3430,8 +3430,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     left: -250px; }
   .content__caption--portfolio {
     text-align: center; }
-  .work:nth-child(3n+3) {
-    margin-right: 10px; }
   .work:nth-child(3n+2) {
     margin-right: 0; } }
 

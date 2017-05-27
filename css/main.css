@@ -3430,6 +3430,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 .bordered {
   border: solid 1px; }
 
+@media screen and (max-width: 1200px) {
+  .my-contacts__detail {
+    left: -131px; } }
+
 @media screen and (max-width: 992px) {
   .container {
     width: 728px; }
@@ -3478,7 +3482,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px 20px;
     min-height: 291px; }
   .works-wrap {
-    margin-left: -20px; } }
+    margin-left: -20px; }
+  .my-contacts__detail {
+    left: -136px; } }
 
 @media screen and (max-width: 768px) {
   .footer {
@@ -3537,7 +3543,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   .my-contacts__tel {
     display: inline-block; }
   .my-contacts__detail {
-    left: -250px; }
+    left: -245px; }
   .content__caption--portfolio {
     text-align: center; } }
 

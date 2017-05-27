@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 94px;
+    margin-top: -94px; }
+  .wrapper:after {
+    height: 94px; }
+  .content {
+    width: 480px; }
+  .container {
+    width: 480px; }
+  .header__left {
+    width: 80%; }
+  .header__right {
+    width: 20%; }
+  .footer__container:before {
+    height: 0; }
+  .footer__left {
+    width: 100%;
+    text-align: center; }
+  .footer__right {
+    width: 100%;
+    text-align: center; }
+  .footer__copyryte {
+    margin-top: 19px; }
+  .socials {
+    margin: 9px 15px 0 0; }
+  .about-me__img-wrap {
+    margin-left: 151px; }
+  .about-me__description-wrap {
+    margin-right: 0px;
+    margin-top: 8px; }
+  .about-me__description-content {
+    width: 480px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 27px; }
+  .content__caption--about {
+    text-align: center;
+    margin-bottom: -14px; }
+  .content__caption--career {
+    text-align: center; }
+  .button {
+    margin-right: 159px; }
+  .career__img-wrap {
+    margin-left: 125px;
+    float: none; }
+  .block-works {
+    float: none;
+    margin: 21px 20px 0 20px; }
+  .block-works__item {
+    width: 100%; }
+  .block-works__time, .block-works__wrap-item:before, .block-works__item:after, .block-works__item:before {
+    display: none; }
+  .my-contacts__link {
+    display: none; }
+  .my-contacts__tel {
+    display: inline-block; }
+  .my-contacts__detail {
+    left: -250px; }
+  .content__caption--portfolio {
+    text-align: center; } }

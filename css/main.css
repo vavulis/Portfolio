@@ -3373,6 +3373,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     width: 480px; }
   .container {
     width: 480px; }
+  .header__left {
+    width: 80%; }
+  .header__right {
+    width: 20%; }
   .footer__container:before {
     height: 0; }
   .footer__left {
@@ -3469,8 +3473,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   .nav__item {
     text-align: left; }
   .header__left {
-    width: 80%; }
+    width: 85%; }
   .header__right {
-    width: 20%; }
+    width: 15%; }
   .logo__text {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .logo__text {
+    width: 100px; } }

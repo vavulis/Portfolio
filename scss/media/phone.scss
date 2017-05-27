@@ -80,4 +80,16 @@
     .logo__text {
         width: 100px;
     }
+    .nav {
+        margin-right: 0;
+    }
+    .nav__item:last-child {
+        margin-right: 0;
+    }
+    .nav__item {
+        margin-right: 3%;
+    }
+    .nav__items {
+        text-align: center;
+    }
 }

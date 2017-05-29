@@ -3020,7 +3020,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
   width: 220px; }
 
 .nav {
-  margin-right: 19px; }
+  margin-right: 19px;
+  white-space: nowrap; }
 
 .nav__item {
   position: relative;
@@ -3613,8 +3614,3 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin-right: 3%; }
   .nav__items {
     text-align: center; } }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (min-resolution: 192dpi) and (max-width: 1300px), only screen and (min-resolution: 2dppx) and (max-width: 1300px) {
-  /* Large screen, retina, stuff to override above media query */
-  .nav__item-text {
-    font-size: 14px; } }

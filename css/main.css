@@ -3462,8 +3462,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     width: 442px;
     height: 365px;
     margin-bottom: 73px; }
-  .button {
-    margin-right: 26px; }
+  .about-me__download-btn {
+    margin-right: 26px;
+    margin-bottom: 30px; }
   .content__caption--career {
     margin-left: 0;
     margin-top: -2px; }
@@ -3526,8 +3527,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin-bottom: -14px; }
   .content__caption--career {
     text-align: center; }
-  .button {
-    margin-right: 159px; }
+  .about-me__download-btn {
+    margin-bottom: 30px; }
   .career__img-wrap {
     margin-left: 125px;
     float: none; }
@@ -3575,7 +3576,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     width: 95vw;
     height: 100%; }
   .button {
-    margin-right: 0;
+    margin-right: 0; }
+  .about-me__download-btn {
     margin-bottom: 30px; }
   .about-me__description-wrap {
     text-align: center; }
@@ -3611,3 +3613,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     margin-right: 3%; }
   .nav__items {
     text-align: center; } }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1300px), only screen and (min-resolution: 192dpi) and (max-width: 1300px), only screen and (min-resolution: 2dppx) and (max-width: 1300px) {
+  /* Large screen, retina, stuff to override above media query */
+  .nav__item-text {
+    font-size: 14px; } }
